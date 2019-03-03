@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body{
+	background-color: #ffffff;
+}
+
+/* Layout */
+.ba-container{
+	/* max-width: 1400px;
+	height: 940px; */
+	padding: 100px 130px;
+}
+
+.ba-inner{
+	background-color: #ffffff;	
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	padding: 120px 140px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+.ba-title{
+	font-family: 'Playfair Display';
+	color: #171717;
+	font-size: 42px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: left;
+}
+
+p{
+	font-family: Lato;
+	color:  #A2A3A2;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 1.8;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.ba-quote{
+	font-style: italic;
+	font-family: Lato;
+	color:  #171717;
+	font-size: 60px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 2;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	padding-right: 20px;
+}
+
+.ba-blockquote{
+	margin: 0;
+	margin-bottom: 40px;
+	font-style: italic;
+	font-family: Lato;
+	color:  #A2A3A2;
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 40px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.ba-discover{
+	text-decoration: none;
+	border: 2px solid #eaa258;
+	width: 260px;
+	height: 64px;
+	font-family: Lato;
+	color:  #eaa258;
+	padding: 15px 75px;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 34px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.ba-inner p:first-of-type::first-letter{
+	float: left;
+	font: 400 110px/0.8 'Playfair Display', serif;
+	color: #171717;
+	text-align: left;
+	margin-right: 20px;
+}
+
